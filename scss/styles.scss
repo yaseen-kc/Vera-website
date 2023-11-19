@@ -24,21 +24,21 @@
   opacity: 1;
 }
 
-.navbar{
+.navbar {
   transition: all 0.5s ease-in-out;
 }
 
-.navbar-sticky{
+.navbar-sticky {
   opacity: 0.8;
 }
 
-.details .vertical-decoration{
+.details .vertical-decoration {
   top: 0;
   left: 0;
   width: 24px;
 }
 
-.details-2 .vertical-decoration{
+.details-2 .vertical-decoration {
   top: 5%;
   right: 0;
   width: 24px;
@@ -52,5 +52,14 @@
     text-align: center;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),
       url("../images/header-background.jpg") center center no-repeat;
+  }
+
+  .video-points {
+    padding: 0 !important;
+    text-align: center;
+  }
+
+  .video-points .col-lg-4 {
+    margin-bottom: 20px;
   }
 }
